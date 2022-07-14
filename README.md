@@ -21,8 +21,9 @@ The output can be found at build/resume.pdf.
 
 ## Credits / External Resources
 
-- Github corner icon - https://github.com/tholman/github-corners
 - Font is Open Sans - https://fonts.google.com/specimen/Open+Sans
+- Github corner icon - https://github.com/tholman/github-corners
+- Link icons - https://github.com/twbs/icons
 
 ## License
 
