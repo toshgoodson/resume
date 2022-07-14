@@ -1,0 +1,93 @@
+\documentclass{resume}
+
+\title{Toshiro Goodson's Résumé}
+\author{Toshiro Goodson}
+\date{August 2021}
+
+\usepackage{atbegshi}
+\AtBeginShipout{%
+	\AtBeginShipoutUpperLeft{%
+		\put(\paperwidth-0.8in,-0.8in){
+			\begin{ocg}[viewocg=always,printocg=never,exportocg=never]{name}{id1}{1}
+				\href{https://github.com/toshgoodson/resume/commit/\commitHash}{\includegraphics[width=0.8in,height=0.8in]{github-corner}}
+			\end{ocg}
+		}%
+	}%
+}
+
+\begin{document}
+\color{content}
+{\Large\texteb{Toshiro Goodson}}\\
+\href{mailto:tosh.goodson@gmail.com}{\color{content}tosh.goodson@gmail.com}\\
+\href{tel:+12532302903}{\color{content}253-230-2903}
+\hfill{\textcolor{white}{•}} % use hidden bullet to separate in case of copy/pasting
+\hfill{San Francisco, CA}
+
+\nointerlineskip
+\rule{\textwidth}{1pt}
+
+\nointerlineskip
+\colorbox{headerbg1}{\rlap{\uppercase{\textbf{Skills}}}\hspace{\linewidth}\hspace{-2\fboxsep}}
+
+\textbf{Languages:} TypeScript, JavaScript, CoffeeScript, CSS, HTML, Java\\
+\textbf{Frameworks:} React, Next.js, Styled Components, Express, Koa\\
+\textbf{Tools:} Node.js, MongoDB, Git, Jenkins, GoCD\\
+\textbf{AWS:} Elastic Beanstalk, EC2, S3, CloudFront, IAM permissions management
+
+\bigskip
+
+\colorbox{headerbg2}{\rlap{\uppercase{\textbf{Experience}}}\hspace{\linewidth}\hspace{-2\fboxsep}}
+
+\textbf{Full-Stack Software Engineer}
+\hfill{\textcolor{white}{•} June 2013 - Present}\\
+\textit{HealthPocket, Inc. • \href{https://www.healthinsurance.com}{healthinsurance.com}, \href{https://www.healthpocket.com}{healthpocket.com}}
+
+\nointerlineskip
+\begin{itemize}
+	\item Developed and maintained multiple high-traffic web properties
+	\item Solely developed a landing page designer tool with live feedback to allow the creation of pages without engineer involvement
+	\item Administered and maintained server infrastructure on AWS
+	\item Solely responsible for automated testing/deploy pipelines for all web properties
+	\item Worked to rapidly develop cutting-edge health insurance e-commerce technology
+\end{itemize}
+
+\textbf{Co-founder and Chief Technology Officer}
+\hfill{\textcolor{white}{•} Aug 2015 - Jan 2017}\\
+\textit{PrioritySales, Inc.}
+
+\nointerlineskip
+\begin{itemize}
+	\item Co-founded company from scratch to over 10,000 active users
+	\item Solely developed a browser extension, the company's core product
+	\item Saved thousands of man-hours by providing automated sales and lead prospecting tools
+\end{itemize}
+
+\textbf{Web Developer Intern}
+\hfill{\textcolor{white}{•} June 2012 - Aug 2012}\\
+\textit{Stripes39 • \href{https://www.stripes39.com}{stripes39.com}}
+
+\nointerlineskip
+\begin{itemize}
+	\item Added searching, filtering, and other improvements to an internal SEO tool used to drive business decisions for the company's portfolio of websites
+	\item Developed logic for a tool that would spin content from a data set for dozens of sites
+	\item Launched multiple websites tailored to rank first-page on search engines
+\end{itemize}
+
+\bigskip
+
+\colorbox{headerbg3}{\rlap{\uppercase{\textbf{Leadership}}}\hspace{\linewidth}\hspace{-2\fboxsep}}
+
+\begin{itemize}
+	\item Won second place in a hackathon with a mobile app idea and then further developed the app idea into the company PrioritySales
+	\item At HealthPocket, worked on a four engineer team
+\end{itemize}
+
+
+\bigskip
+
+\colorbox{headerbg4}{\rlap{\uppercase{\textbf{Education}}}\hspace{\linewidth}\hspace{-2\fboxsep}}
+
+\textbf{Massachusetts Institute of Technology}
+\hfill{\textcolor{white}{•} Sep 2011 - May 2013}\\
+Completed 2 years towards a bachelor's degree in Electrical Engineering and Computer Science
+\end{document}
