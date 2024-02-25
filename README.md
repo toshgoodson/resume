@@ -8,12 +8,14 @@ I got fed up using Google Docs for my résumé, so I opted for something that wo
 
 - xelatex
 - make
+- nix (optional, but makes dependency installation trivial)
 
 ## Usage
 
 ```console
 $ git clone https://github.com/toshgoodson/resume.git
 $ cd resume
+$ nix-shell
 $ make
 ```
 
