@@ -8,7 +8,7 @@
 \usepackage{parskip} % remove paragraph indentation
 \usepackage{xcolor} % colors
 
-\geometry{margin=0.5in,columnsep=1.5cm,top=27mm} % set document margins
+\geometry{margin=0.5in,columnsep=1.5cm,top=20mm} % set document margins
 
 
 
