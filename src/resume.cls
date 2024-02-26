@@ -2,10 +2,15 @@
 
 \LoadClass[11pt,letterpaper]{article} % Font size and paper type
 
-\usepackage[margin=0.5in,columnsep=1.5cm,top=27mm]{geometry} % Set margins
+\usepackage{geometry} % document margins
+\usepackage{setspace} % line spacing
+\usepackage{ocgx2} % for hiding link icons during print
+\usepackage{parskip} % remove paragraph indentation
+\usepackage{xcolor} % colors
 
-% line spacing
-\usepackage{setspace}
+\geometry{margin=0.5in,columnsep=1.5cm,top=27mm} % set document margins
+
+
 
 % Use Work Sans font
 \usepackage{fontspec}
@@ -25,8 +30,6 @@
 	FontFace = {eb}{it}{*-ExtraBoldItalic},
 ]
 
-\usepackage{ocgx2} % for hiding link icons during print
-
 % Declare "Medium" font command \textmf
 \DeclareRobustCommand{\mfseries}{\fontseries{mf}\selectfont}
 \DeclareTextFontCommand{\textmf}{\mfseries}
@@ -39,13 +42,10 @@
 \DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
 \DeclareTextFontCommand{\texteb}{\ebseries}
 
-\usepackage{parskip} % Remove paragraph indentation
 
 \pagestyle{empty} % Suppress page numbers
 
-% \linespread{1.2} % Increase line height
-
-\usepackage{xcolor} % colors
+% Define colors
 \definecolor{content}{RGB}{49, 53, 57}
 \definecolor{subcontent}{RGB}{145, 149, 153}
 \definecolor{headerbg1}{RGB}{130, 204, 221}
