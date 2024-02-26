@@ -1,23 +1,39 @@
-\ProvidesClass{resume}[2021/08/26 v0.1 Resume class]
+\ProvidesClass{resume}[2024-02-25 v1.0 Resume class]
 
-\LoadClass[12pt,letterpaper]{article} % Font size and paper type
+\LoadClass[11pt,letterpaper]{article} % Font size and paper type
 
-\usepackage[margin=0.5in]{geometry} % Set margins
+\usepackage[margin=0.5in,columnsep=1.5cm,top=27mm]{geometry} % Set margins
 
-% Use Open Sans font
+% line spacing
+\usepackage{setspace}
+
+% Use Work Sans font
 \usepackage{fontspec}
-\setmainfont{OpenSans}[
-	ExternalLocation=assets/,
+\setmainfont{WorkSans}[
+	LetterSpace=-2,
+	ExternalLocation=assets/fonts/WorkSans/,
 	Extension=.ttf,
 	UprightFont=*-Regular,
 	BoldFont=*-Bold,
 	ItalicFont=*-Italic,
 	BoldItalicFont=*-BoldItalic,
+	FontFace = {mf}{n}{*-Medium},
+	FontFace = {mf}{it}{*-MediumItalic},
+	FontFace = {sb}{n}{*-SemiBold},
+	FontFace = {sb}{it}{*-SemiBoldItalic},
 	FontFace = {eb}{n}{*-ExtraBold},
 	FontFace = {eb}{it}{*-ExtraBoldItalic},
 ]
 
 \usepackage{ocgx2} % for hiding link icons during print
+
+% Declare "Medium" font command \textmf
+\DeclareRobustCommand{\mfseries}{\fontseries{mf}\selectfont}
+\DeclareTextFontCommand{\textmf}{\mfseries}
+
+% Declare "Semi Bold" font command \textsb
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textsb}{\sbseries}
 
 % Declare "Extra Bold" command \texteb
 \DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
@@ -27,10 +43,11 @@
 
 \pagestyle{empty} % Suppress page numbers
 
-\linespread{1.2} % Increase line height
+% \linespread{1.2} % Increase line height
 
 \usepackage{xcolor} % colors
 \definecolor{content}{RGB}{49, 53, 57}
+\definecolor{subcontent}{RGB}{145, 149, 153}
 \definecolor{headerbg1}{RGB}{130, 204, 221}
 \definecolor{headerbg2}{RGB}{119, 190, 210}
 \definecolor{headerbg3}{RGB}{107, 177, 199}
@@ -51,3 +68,6 @@
 % lists
 \usepackage{enumitem}
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+
+% column layout
+\usepackage{paracol}
