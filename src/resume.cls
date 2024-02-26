@@ -59,7 +59,7 @@
 }
 
 % graphics config
-\graphicspath{ {./assets/} }
+\graphicspath{ {./assets/images/} }
 
 % list style
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}

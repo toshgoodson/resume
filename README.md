@@ -23,9 +23,8 @@ The output can be found at build/resume.pdf.
 
 ## Credits / External Resources
 
-- Font is Open Sans - https://fonts.google.com/specimen/Open+Sans
+- Font is Work Sans - https://fonts.google.com/specimen/Work+Sans
 - Github corner icon - https://github.com/tholman/github-corners
-- Link icons - https://github.com/twbs/icons
 
 ## License
 
