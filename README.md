@@ -6,7 +6,7 @@ I got fed up using Google Docs for my résumé, so I opted for something that wo
 
 ## Dependencies
 
-- xelatex
+- TeX Live full
 - make
 - nix (optional, but makes dependency installation trivial)
 
@@ -15,7 +15,7 @@ I got fed up using Google Docs for my résumé, so I opted for something that wo
 ```console
 $ git clone https://github.com/toshgoodson/resume.git
 $ cd resume
-$ nix-shell
+$ nix develop -c zsh # omit `-c zsh` if you're not using zsh!
 $ make
 ```
 
