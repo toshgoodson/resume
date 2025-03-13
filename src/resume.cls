@@ -1,6 +1,6 @@
 \ProvidesClass{resume}[2024-02-25 v1.0 Resume class]
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\LoadClass[10pt,letterpaper]{article} % Font size and paper type
 
 \usepackage{geometry} % document margins
 \usepackage{setspace} % line spacing
@@ -13,7 +13,7 @@
 \usepackage{enumitem} % list support
 \usepackage{paracol} % column layout
 
-\geometry{margin=0.5in,columnsep=1.5cm} % set document margins
+\geometry{margin=0.5in,columnsep=0.5in} % set document margins
 
 % Use Work Sans font
 \setmainfont{WorkSans}[
