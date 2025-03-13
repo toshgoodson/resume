@@ -13,7 +13,7 @@
 \usepackage{enumitem} % list support
 \usepackage{paracol} % column layout
 
-\geometry{margin=0.5in,columnsep=1.5cm,top=22mm} % set document margins
+\geometry{margin=0.5in,columnsep=1.5cm} % set document margins
 
 % Use Work Sans font
 \setmainfont{WorkSans}[

@@ -2,7 +2,7 @@
 
 \title{Toshiro Goodson's Résumé}
 \author{Toshiro Goodson}
-\date{Feb 2024}
+\date{Mar 2025}
 
 
 \usepackage{atbegshi}
@@ -32,10 +32,8 @@
 
 	\bigskip
 	\bigskip
-	\bigskip
 
 	\begin{paracol}{2}
-	
 		\begin{flushright}
 			\small \textmf{\uppercase{Socials}}
 
@@ -48,6 +46,7 @@
 
 				\small \textmf{\uppercase{Skills}}
 
+				% Languages ============================================================================================
 				{\color{subcontent} \footnotesize Languages}\\
 				\smallskip
 				TypeScript\\
@@ -58,6 +57,7 @@
 
 				\medskip
 
+				% Libraries ============================================================================================
 				{\color{subcontent} \footnotesize Libraries}\\
 				\smallskip
 				React\\
@@ -71,9 +71,13 @@
 
 				\medskip
 
+				% Software ====================================================================-========================
 				{\color{subcontent} \footnotesize Software}\\
 				\smallskip
 				Node.js\\
+				Supabase\\
+				PostgreSQL\\
+				Inngest\\
 				MongoDB\\
 				Redis\\
 				GoCD\\
@@ -81,7 +85,7 @@
 
 				\bigskip
 
-				% Education ====================================================================================================
+				% Education ============================================================================================
 				\small \textmf{\uppercase{Education}}
 
 				{\large{\textsb{MIT}}}\\
@@ -93,6 +97,36 @@
 		\switchcolumn
 		\small \textmf{\uppercase{Work Experience}}
 		
+		% Founding Engineer ============================================================================================
+		{\large{\textsb{Founding Engineer}}}
+		\hfill{\color{subcontent} December 2024 - February 2025}\\
+		\textit{Vertex Technologies, Inc.}
+		
+		\nointerlineskip
+		\begin{itemize}
+			\item Led full-stack development of a cost-savings analysis tool for manufacturing runs using Next.js, TailwindCSS, and Supabase
+			\item Designed and implemented an LLM pipeline to process manufacturing run spreadsheets into normalized data, leveraging GPT-4o and Inngest, saving ~8 hours of manual data entry per sheet
+		\end{itemize}
+		% -----
+
+		\medskip
+
+		% Founding Software Engineer ===================================================================================
+		{\large{\textsb{Founding Software Engineer}}}
+		\hfill{\color{subcontent} May 2024 - August 2024}\\
+		\textit{Guide AI, Inc.}
+		
+		\nointerlineskip
+		\begin{itemize}
+			\item Engineered microservice applications: a white-labeled customer-facing website that delivered personalized content to users, and an internal management portal that empowered coaches to monitor client progress and adjust recommendations, dramatically increasing onboarding efficiency
+			\item Developed two LLM pipelines using GPT-4o and LangChain: one for processing client onboarding surveys to generate personalized health plans, and another for analyzing daily check-ins to automatically adjust recommendations
+			\item Architected and deployed cloud infrastructure using AWS CDK
+			\item Designed and implemented RESTful API endpoints for product features and user authentication using FastAPI and Auth.js
+		\end{itemize}
+		% -----
+
+		\medskip
+
 		% Senior Software Architect ====================================================================================
 		{\large{\textsb{Senior Software Architect}}}
 		\hfill{\color{subcontent} June 2022 - February 2024}\\
@@ -100,12 +134,10 @@
 		
 		\nointerlineskip
 		\begin{itemize}
-			\item Implemented automated aggregation of insurance carrier sales data, allowing sales reps to visit one location instead of a dozen for sales reports
-			\item Modernized our legacy application system to a JSON Schema data-driven approach
-			\item Provided key technical direction to team members regarding 3rd party API integration and passwordless user sessions
-			\item Aided in the hiring process by creating role-specific take home tests which greatly helped in determining candidate ability
-			\item Administered and updated AWS IAM permissions as team members were added and services were expanded
-			\item Added performant full-text search capabilities to headless CMS database
+			\item Centralized sales data from 12+ carrier portals, greatly reducing report access time
+			\item Modernized our legacy application system with a JSON Schema driven approach
+			\item Led technical initiatives including 3rd party API integration, passwordless authentication, and full-text search implementation
+			\item Streamlined hiring process through technical assessments that improved candidate evaluation accuracy
 		\end{itemize}
 		% -----
 
@@ -118,12 +150,10 @@
 
 		\nointerlineskip
 		\begin{itemize}
-			\item Contributed to data schemas, pipelines, and persistence for a central API server: user sessions, e-commerce product filtering and display, customer data collection and product enrollment, analysis of customer data from third-party APIs
-			\item Developed the full stack of 14 health insurance e-commerce websites using modern back-end and front-end frameworks/libraries
-			\item Administered AWS server infrastructure, auto-scaling services, CDNs, serverless functions for 14 production websites as well as QA environments and feature-testing servers
-			\item Spun up and maintained GoCD instance with elastic agents to automate pull request testing and created deployment pipelines, reducing QA team overhead
-			\item Setup and managed a headless CMS allowing for a hybrid of marketer-controlled and engineer-controlled content across multiple websites
-			\item Implemented an internal landing page creation tool with live feedback, allowing marketers to directly create pages; eliminated the past cost of engineering time
+			\item Built and maintained 14 health insurance e-commerce websites, including data schemas, API server development, user sessions, and product enrollment flows
+			\item Administered AWS infrastructure (auto-scaling services, CDNs, serverless functions) for production, QA, and PR-testing environments, achieving 99.9\% uptime
+			\item Implemented CI/CD with GoCD and elastic agents, greatly reducing deployment time/mistakes and QA overhead
+			\item Created internal tools including a headless CMS and landing page builder, eliminating engineering bottlenecks and reducing page creation time from days to hours
 			\item Worked directly with product manager to form actionable analytics reports and build pages/features based on data
 		\end{itemize}
 		% -----
