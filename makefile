@@ -8,5 +8,9 @@ resume.pdf:
 	mkdir -p build
 	@$(call run_and_test,TEXINPUTS="./src/:${TEXINPUTS}" xelatex -interaction=nonstopmode -halt-on-error -output-directory=build "\\def\\commitHash{`[[ ! -z \`git tag --points-at HEAD\` ]] && git tag --points-at HEAD || git rev-parse --short HEAD`} \\input{resume}")
 
+cover_letter.pdf:
+	mkdir -p build
+	@$(call run_and_test,TEXINPUTS="./src/:${TEXINPUTS}" xelatex -interaction=nonstopmode -halt-on-error -output-directory=build "\\def\\commitHash{`[[ ! -z \`git tag --points-at HEAD\` ]] && git tag --points-at HEAD || git rev-parse --short HEAD`} \\input{cover_letter}")
+
 clean:
 	rm -rf build
